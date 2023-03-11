@@ -36,7 +36,7 @@ li{
 
 }
 ul{
-    margin-right: 3rem;
+    margin-right: 15rem;
 }
 h2{
     line-height: 6vh;
@@ -53,6 +53,7 @@ p{
     
     line-height: 20px;
     font-weight: 300;
+    font-size: 1.2rem; 
     
 }
 
@@ -88,15 +89,16 @@ p{
     
 }
 #minhafoto{
-    max-width:55wh;
+    max-width:55vw;
     max-height:55vh;
     width: auto;
     height: auto;
     border-radius: 50%;
     border-style:outset;
-    margin-left: 10rem;
+    margin-left: 15rem;
     border-color: rgb(255, 20, 28);
 }
+
 ul a{
     color: white;
 }
@@ -115,20 +117,16 @@ button {
 #botoes{
     display: flex;
     flex-direction: row;
-    justify-content:center;
     align-items: center;
 }
 
 #botoes img{
     justify-items: center;
-    margin: 1rem 1rem 1rem;
+    margin: 1rem 5rem 1rem;
     max-width:4vw;
     max-height:4vh;
 }
-#botoes img:hover{
-    color: rgb(255, 20, 28);
-    transition: 0.4s all;
-}
+
 aside a{
     color: rgb(34,34,34);
 }
