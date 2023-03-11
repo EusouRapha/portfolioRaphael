@@ -24,29 +24,36 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    margin-left: 7rem;
 }
+
 li{
     display: inline-block;
     margin: 20px;
     font-size: 1.6rem;
 
 }
+ul{
+    margin-right: 15rem;
+}
 h2{
-    margin: 30px;
+    line-height: 6vh;
+    margin: 0px 0px 0px;
     font-size: 3vw;
-    line-height: 10px;
     font-weight: 400;
+    
 }
 
 span{
     color: rgb(255, 20, 28);
 }
 p{
-    margin: 30px;
+    
     line-height: 20px;
     font-weight: 300;
+    font-size: 1.2rem; 
     
 }
 
@@ -56,20 +63,20 @@ p{
 
 
 #botaogithub{
-    max-width:20vh;
-    max-height:30vh;
+    max-width:7vw;
+    max-height:7vh;
     width: auto;
     height: auto;
 }
 #botaolinkedin{
-    max-width:20vh;
-    max-height:30vh;
+    max-width:7vw;
+    max-height:7vh;
     width: auto;
     height: auto;
 }
 #botaoinstagram{
-    max-width:20vh;
-    max-height:30vh;
+    max-width:7vw;
+    max-height:7vh;
     width: auto;
     height: auto;
 }
@@ -78,12 +85,48 @@ p{
     max-height:30vh;
     width: auto;
     height: auto;
+    margin-left: 40px;
     
 }
 #minhafoto{
-    max-width:60vh;
-    max-height:60vh;
+    max-width:55vw;
+    max-height:55vh;
     width: auto;
     height: auto;
     border-radius: 50%;
+    border-style:outset;
+    margin-left: 15rem;
+    border-color: rgb(255, 20, 28);
+}
+
+ul a{
+    color: white;
+}
+ul a:hover{
+    color: rgb(255, 20, 28);
+    transition: 0.4s all;
+}
+
+button {     
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+
+    transition: .5s ease;
+}
+#botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#botoes img{
+    justify-items: center;
+    margin: 1rem 5rem 1rem;
+    max-width:4vw;
+    max-height:4vh;
+}
+
+aside a{
+    color: rgb(34,34,34);
 }
