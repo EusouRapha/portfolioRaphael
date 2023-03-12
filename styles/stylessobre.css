@@ -33,15 +33,27 @@ li{
 ul{
     margin-right: 10rem;
 }
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h2{
-    line-height: 6vh;
+    line-height: 3vh;
     font-size: 3vw;
     font-weight: 400;
-    
+    margin: 2rem 0px 0px; 
 }
+p{
+
+}
+
 
 span{
     color: rgb(255, 20, 28);
+
 }
 
 article{
