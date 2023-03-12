@@ -8,11 +8,31 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+  }
+  li {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+  li:hover {
+    color: rgb(255, 20, 28);
+    transition: 0.4s all;
+  }
+  a {
+    color: white;
+  }
+  #logo{
+    max-width:15vw;
+    max-height:25vh;
+    width: auto;
+    height: auto;
+    
 }
 
 main{
@@ -21,19 +41,6 @@ main{
     margin-top: 50px;
     justify-content: center;
 }
-
-li{
-    display: inline-block;
-    margin: 20px;
-    line-height: 20px;
-    font-weight: 300;
-    font-size: 1.2rem; 
-
-}
-ul{
-    margin-right: 10rem;
-}
-
 #texto{
     display: flex;
     flex-direction: column;
@@ -110,28 +117,5 @@ p{
     font-weight: 300;
     font-size: 1.2rem; 
     
-}
-
-
-
-
-
-#logo{
-    max-width:15vw;
-    max-height:25vh;
-    width: auto;
-    height: auto;
-    margin-left: 5rem;
-    
-}
-
-
-
-ul a{
-    color: white;
-}
-ul a:hover{
-    color: rgb(255, 20, 28);
-    transition: 0.4s all;
 }
 
