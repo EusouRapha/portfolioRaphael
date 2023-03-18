@@ -19,7 +19,7 @@ header {
 li {
   display: inline-block;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 li:hover {
   color: rgb(255, 20, 28);
@@ -29,8 +29,6 @@ a {
   color: white;
 }
 
-
-
 main {
   display: flex;
   flex-direction: row;
@@ -39,16 +37,10 @@ main {
   align-items: center;
 }
 
-
-
-
-
-
-
 h2 {
-  line-height: 6vh;
+  line-height: 1em;
   margin: 0px 0px 0px;
-  font-size: 3vw;
+  font-size: 3.5em;
   font-weight: 400;
 }
 
@@ -56,7 +48,7 @@ span {
   color: rgb(255, 20, 28);
 }
 p {
-  line-height: 20px;
+  line-height: 0em;
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -64,14 +56,14 @@ p {
 /* teste */
 
 #logo {
-  max-width: 15vw;
-  max-height: 25vh;
+  max-width: 15em;
+  max-height: 25em;
   width: auto;
   height: auto;
 }
-#minhafoto {
-  max-width: 40vw;
-  max-height: 40vh;
+#minhafoto{
+  max-width: 20em;
+  max-height: 20em;
   width: auto;
   height: auto;
   border-radius: 50%;
@@ -95,10 +87,38 @@ button {
 #botoes img {
   justify-items: center;
   margin: 1rem 5rem 1rem;
-  max-width: 4vw;
-  max-height: 4vh;
+  max-width: 2.5em;
+  max-height: 2.5em;
 }
 
 aside a {
   color: rgb(34, 34, 34);
+}
+
+@media (max-width:700px) {
+  main {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  article {
+    align-items: center;
+    justify-content: center;
+  }
+  #logo{
+    height: 10em;
+  }
+  p{
+    line-height: 1em;
+  }
+  #minhafoto{
+    
+    height: 10rem;
+    margin-left: 0px;
+  }
+  #botoes {
+    justify-content: center;
+  }
+  #botoes img {
+    margin: 1rem;
+  }
 }
