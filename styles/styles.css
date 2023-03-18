@@ -104,8 +104,11 @@ aside a {
     align-items: center;
     justify-content: center;
   }
-  #logo{
-    height: 10em;
+  #logo {
+    max-width: 10em;
+    max-height: 10em;
+    width: auto;
+    height: auto;
   }
   p{
     line-height: 1em;
